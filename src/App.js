@@ -31,7 +31,7 @@ const TodoInput = ({ todo, setTodo, addTodo, setTodos, todos }) => {
           }
         }}
       ></input>
-      <button className="add-button" id="urmom" onClick={addTodo}>
+      <button className="add-button" id="add-button" onClick={addTodo}>
         <MdAdd size={21}/>
       </button>
     </div>
